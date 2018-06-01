@@ -7,9 +7,9 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
 import { CoreModule } from './core/core.module';
-import { DashboardComponent } from './dashboard/dashboard.component';
+import { HomeComponent } from './home/home.component';
 import { AuthGuard } from './auth.guard';
-import { PostsComponent } from './posts/posts.component';
+import { AboutComponent } from './aboutus/about.component';
 import { TopNavigationComponent } from './shared/top-navigation/top-navigation.component';
 import { HttpClientModule } from '@angular/common/http';
 import { environment } from '../environments/environment';
@@ -18,8 +18,8 @@ import { environment } from '../environments/environment';
 @NgModule({
   declarations: [
     AppComponent,
-    DashboardComponent,
-    PostsComponent,
+    HomeComponent,
+    AboutComponent,
     TopNavigationComponent
   ],
   imports: [

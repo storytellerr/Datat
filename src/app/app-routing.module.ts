@@ -1,18 +1,18 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { DashboardComponent } from './dashboard/dashboard.component';
+import { HomeComponent } from './home/home.component';
 import { AuthGuard } from './auth.guard';
-import { PostsComponent } from './posts/posts.component';
+import { AboutComponent } from './aboutus/about.component';
 
 const routes: Routes = [
-  { path: 'dashboard', component: DashboardComponent, canActivate: [AuthGuard] },
-  { path: 'posts', component: PostsComponent, canActivate: [AuthGuard] },
+  { path: 'home', component: HomeComponent, canActivate: [AuthGuard] },
+  { path: 'about', component: AboutComponent, canActivate: [AuthGuard] },
   {
     path: '',
     redirectTo: '/',
     pathMatch: 'full'
   },
-  { path: '**', component: DashboardComponent }
+  { path: '**', component: HomeComponent }
 ];
 
 @NgModule({
