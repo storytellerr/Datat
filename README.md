@@ -1,5 +1,5 @@
 # Angular PWA Starter
-Angular 6 PWA (progressive web app) starter application ready to use. Test with incognito mode and press offline and refresh.
+Technojam (progressive web app) starter application ready to use. Test with incognito mode and press offline and refresh
 
 ## Service Worker
 This project is built with Angular's Service-Worker:
@@ -22,6 +22,8 @@ This project is built with Angular's Service-Worker:
 
 ## Installation
 Install node modules `npm i`
+or
+Install node modules `npm install`
 
 ## Development server
 

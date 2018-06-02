@@ -7,11 +7,16 @@ import * as _ from 'lodash';
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss']
 })
-export class HomeComponent implements OnInit {
+export class HomeComponent implements ngAfterViewInit {
+//@ViewChild("tpl") tpl: TemplateRef<any>;
 
   constructor() {
   }
 
-  ngOnInit() {
+
+ngAfterViewInit() {
+
+//this.tpl.width  = 800;
+//this.tpl.height = 600;
   }
 }
